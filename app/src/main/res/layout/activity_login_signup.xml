@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp">
+
+    <!-- ImageView for the hand illustration -->
+    <ImageView
+        android:id="@+id/handImage"
+        android:layout_width="265dp"
+        android:layout_height="287dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:contentDescription="Hand illustration"
+        android:src="@drawable/hand_image" />
+
+    <!-- TextView for the main heading -->
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/handImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Gain total control of your money"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- TextView for the subtitle -->
+    <TextView
+        android:id="@+id/subText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mainText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:text="Become your own money manager\nand make every cent count"
+        android:textColor="#888888"
+        android:textSize="14sp"
+        android:textAlignment="center" />
+
+    <!-- Button for Sign Up -->
+
+    <!-- Button for Login -->
+    <Button
+        android:id="@+id/signUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/rounded_button"
+        android:text="Sign Up"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/rounded_button_light"
+        android:text="Login"
+        android:textColor="#FFFF"
+        android:textSize="16sp" />
+</RelativeLayout>
